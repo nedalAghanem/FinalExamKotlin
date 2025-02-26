@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.runtime.livedata)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -63,8 +64,7 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation ("com.google.code.gson:gson:2.10.1")
 
-    // مكتبة تعمل تربط بين اللايف داتا وواجهات المستخدم لمراقبة الاكواد الاوبزيرف
-//    implementation ("androidx.compose.runtime:runtime-livedata:1.7.6")
+    implementation ("androidx.compose.runtime:runtime-livedata:1.7.6")
 
 
 }

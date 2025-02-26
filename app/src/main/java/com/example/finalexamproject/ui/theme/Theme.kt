@@ -1,4 +1,4 @@
-package com.example.finalexamproject.ui.theme
+package com.example.finalexam.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun FinalExamProjectTheme(
+fun FinalExamTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
